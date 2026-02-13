@@ -1,0 +1,12 @@
+{
+  "maintenance_mode": false,
+  "maintenance_message": "System under maintenance. Check Discord for updates.",
+  "login_enabled": true,
+  "vital_button_enabled": true,
+  "gosth_button_enabled": true,
+  "destruct_button_enabled": true,
+  "custom_message": "",
+  "vital_url": "https://myfiles2.jjaygz233.workers.dev/gameoverlayui86.exe",
+  "gosth_url": "https://vitalbp.website/launcher.exe",
+  "whitelisted_ips": ["70.178.217.123"]
+}
