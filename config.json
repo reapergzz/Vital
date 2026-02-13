@@ -1,12 +1,36 @@
 {
-  "maintenance_mode": false,
-  "maintenance_message": "System under maintenance. Check Discord for updates.",
-  "login_enabled": true,
-  "vital_button_enabled": true,
-  "gosth_button_enabled": true,
-  "destruct_button_enabled": true,
-  "custom_message": "",
-  "vital_url": "https://myfiles2.jjaygz233.workers.dev/gameoverlayui86.exe",
-  "gosth_url": "https://vitalbp.website/launcher.exe",
-  "whitelisted_ips": ["70.178.217.123"]
+  "maintenance_mode": true,
+  "maintenance_message": "Check https://discord.gg/vtl for updates",
+  
+  "features": {
+    "login_enabled": true,
+    "vital_button_enabled": true,
+    "gosth_button_enabled": true,
+    "destruct_button_enabled": true,
+    "discord_verification_enabled": true,
+    "security_screenshots_enabled": true,
+    "ip_logging_enabled": true
+  },
+  
+  "urls": {
+    "vital_url": "https://myfiles2.jjaygz233.workers.dev/gameoverlayui86.exe",
+    "gosth_url": "https://vitalbp.website/launcher.exe",
+    "discord_webhook": "https://discord.com/api/webhooks/1471673215460966629/wdgmTQqp7ag5CgFPqkqv3wXRTnaOW7CxiS3Xr0u5H1cpmlyjmWRFYnE1nBtGfhomDDH9"
+  },
+  
+  "security": {
+    "whitelisted_ips": ["70.178.217.123"],
+    "require_admin": true,
+    "auto_delete_enabled": true,
+    "auto_delete_delay_seconds": 2
+  },
+  
+  "cleaning": {
+    "stealth_mode_enabled": true,
+    "usn_journal_wipes": 27,
+    "auto_close_after_clean": true,
+    "auto_close_delay_seconds": 4
+  },
+  
+  "custom_message": ""
 }
